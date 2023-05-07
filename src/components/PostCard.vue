@@ -76,5 +76,23 @@ export default {
     text-indent: -9999px;
     z-index: 0;
   }
+  h1 {
+    &:first-of-type {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size : 1.2rem;
+    margin-top: 1.5rem;
+  }
+  h3,h4,h5 {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
+  p {
+    margin-bottom: 0;
+  }
 }
 </style>
